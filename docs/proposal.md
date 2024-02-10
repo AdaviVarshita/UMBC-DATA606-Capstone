@@ -94,3 +94,17 @@ The objective of the project is to develop a predictive model leveraging machine
     - Difficulty Walking: Reflects any challenges or limitations the individual may experience in walking, which can be indicative of mobility issues and potentially underlying health conditions related to diabetes.
     - Heart Disease/Attack: Indicates whether the individual has a history of diagnosed heart disease or heart attack, which are both significant risk factors for diabetes and overall health.
     - Alcohol Consumption: Reflects the frequency and quantity of alcohol intake by the individual, which can impact overall health and may contribute to diabetes risk, particularly when consumed in excess.
+ 
+
+## Methodology
+
+1. **Data Collection**: Obtain a dataset containing relevant health indicators and diabetes status for a sample population.
+2. **Data Preprocessing**: Clean the data by handling missing values, removing duplicates, and addressing any inconsistencies. Perform feature engineering if necessary to create new features or transform existing ones.
+3. **Exploratory Data Analysis (EDA)**: Conduct exploratory data analysis to gain insights into the dataset's characteristics, identify patterns, and understand the relationships between variables.
+4. **Feature Selection**: Utilize techniques such as feature importance analysis, correlation analysis, or domain knowledge to select the most relevant features for predicting diabetes risk.
+5. **Model Selection**: Choose appropriate machine learning algorithms for binary classification tasks, such as Random Forest Classifier, Logistic Regression, Support Vector Machines, or Gradient Boosting Machines.
+6. **Model Training**: Split the dataset into training and testing sets, and train the selected machine learning models on the training data.
+7. **Model Evaluation**: Evaluate the performance of the trained models using appropriate evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC. Fine-tune hyperparameters if necessary to improve model performance.
+8. **Application Development**: Develop a user-friendly application where users can input their personal health information. Integrate the trained machine learning model into the application to predict the likelihood of diabetes based on the user's input.
+9. **Testing and Validation**: Test the application thoroughly to ensure its functionality and accuracy in predicting diabetes risk. Validate the model's performance on unseen data to assess its generalization ability.
+10. **Deployment**: Deploy the application on a suitable platform, such as a web server or mobile app store, to make it accessible to users.
