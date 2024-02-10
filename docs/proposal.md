@@ -83,5 +83,13 @@ The objective of the project is to develop a predictive model leveraging machine
   Some of the potential features or predictors that could be used in predicting the likelihood of diabetes are:
     - BMI: BMI is a measure of body fat based on height and weight. Higher BMI values are often associated with increased risk of diabetes.
     - Age: Age is a significant risk factor for diabetes, with the prevalence of the condition generally increasing with age.
+    - Health: Balanced maintenance of physical, general, and mental health is crucial in predicting diabetes risk, as their harmonious equilibrium is associated with reduced susceptibility to the condition.
     - Blood pressure: High blood pressure, also known as hypertension, is a common comorbidity of diabetes and is often considered a predictor of diabetes risk.
-    - Cholestrol levels: Elevated levels of LDL cholesterol (often referred to as "bad" cholesterol) and triglycerides, as well as low levels of HDL cholesterol ("good" cholesterol), are associated with an increased risk of diabetes.
+    - Smoking Status: Indicates whether the individual is a smoker or non-smoker, which can influence the risk of diabetes and overall health outcomes.
+    - Fruit and Vegetable Consumption: Reflects the frequency and quantity of fruit or vegetable intake in the individual's diet, which can impact overall nutrition and health status, potentially affecting diabetes risk.
+    - Sex: Refers to the biological classification of male or female, which can influence physiological factors related to diabetes risk, such as hormonal differences.
+    - Physical Activity Level: Indicates the amount and intensity of physical activity or exercise performed by the individual, which is associated with improved health outcomes and reduced risk of diabetes.
+    - High Cholesterol: Indicates elevated levels of cholesterol in the blood, which is a risk factor for cardiovascular disease and may also contribute to insulin resistance and diabetes risk.
+    - Difficulty Walking: Reflects any challenges or limitations the individual may experience in walking, which can be indicative of mobility issues and potentially underlying health conditions related to diabetes.
+    - Heart Disease/Attack: Indicates whether the individual has a history of diagnosed heart disease or heart attack, which are both significant risk factors for diabetes and overall health.
+    - Alcohol Consumption: Reflects the frequency and quantity of alcohol intake by the individual, which can impact overall health and may contribute to diabetes risk, particularly when consumed in excess.
