@@ -80,7 +80,8 @@ The objective of the project is to develop a predictive model leveraging machine
 
 - **Potential Features/Predictors:**
 
-  Some of the potential features or predictors that could be used in predicting the likelihood of diabetes are:
+  The potential features or predictors considered for predicting the likelihood of diabetes have been chosen based on their significance to the target variable, determined through feature importance analysis using the Random Forest Classifier in machine learning.
+  
     - BMI: BMI is a measure of body fat based on height and weight. Higher BMI values are often associated with increased risk of diabetes.
     - Age: Age is a significant risk factor for diabetes, with the prevalence of the condition generally increasing with age.
     - Health: Balanced maintenance of physical, general, and mental health is crucial in predicting diabetes risk, as their harmonious equilibrium is associated with reduced susceptibility to the condition.
