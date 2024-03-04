@@ -40,13 +40,13 @@ The objective of the project is to develop a predictive model leveraging machine
 ## Data 
 
 - Data sources: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
-- Data size: 22 MB
-- Data shape: (253680, 22)
+- Data size: 6.2 MB
+- Data shape: (70692, 22)
 - Time period: 2015
 - Columns in dataset:
     | Column Name | Data Type | Description |
     | :- | :- | :- |
-    | Diabetes_012 | Float | Indicates the stage of diabetes. Scale: 0 = no diabetes, 1 = prediabetes, 2 = diabetes |
+    | Diabetes_binary | Float | Indicates the stage of diabetes. Scale: 0 = no diabetes, 1 = prediabetes or diabetes |
     | HighBP | Float | Describes if the person have high blood pressure or not. Scale: 0 = no high BP, 1 = high BP |
     | HighChol | Float | Describes if the person have high cholestrol or not. Scale: 0 = no high cholestrerol 1 = high cholestrerol |
     | CholCheck | Float | Describes if the person had cholesterol check up in past 5 years or not. Scale: 0 = no cholesterol check, 1 = yes cholesterol check |
@@ -63,8 +63,8 @@ The objective of the project is to develop a predictive model leveraging machine
     | GenHlth | Float | Indicates general health of the person. Scale: (1-5): 1 = excellent, 2 = very good, 3 = good, 4 = fair, 5 = poor |
     | MentHlth | Float | Describes about the persons mental health. It includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? Scale: 1-30 days |
     | PhysHlth | Float | Describes about the persons mental health. It includes physical illness and injury, for how many days during the past 30 days was your physical health not good? Scale: 1-30 days |
-    | DiffWalk | Float | Indicates if the person has serious difficulty in walking or climbing stairs |
-    | Sex | Float | Indicates the gender of the person |
+    | DiffWalk | Float | Indicates if the person has serious difficulty in walking or climbing stairs. 0 = No, 1 = Yes |
+    | Sex | Float | Indicates the gender of the person. 0 = Female, 1 = Male |
     | Age | Float | Describes the age of the person in range category. 13-level age category: 1 = 18-24, ..., 9 = 60-64, ..., 13 = 80 or older |
     | Education | Float | Describes the education level of the person. Scale: 1-6: 1 = Never attended school or only kindergarten, 2 = Elementary, 3 = Some high school, 4 = High school graduate, 5 = Some college or technical school, 6 = College graduate |
     | Income | Float | Indicate the income range of the person. Scale: 1-8: 1 = less than $10,000, 5 = less than $35,000, 8 = $75,000 or more |
@@ -72,10 +72,9 @@ The objective of the project is to develop a predictive model leveraging machine
 
 - **Target Variable:**
 
-  Diabetes_012 is considered as the target variable. It predicts the likelihood of diabetes, the target variable typically represents whether an individual has been diagnosed with diabetes or not. This variable is calssified into three categories:
+  Diabetes_binary is considered as the target variable. It predicts the likelihood of diabetes, the target variable typically represents whether an individual has been diagnosed with diabetes or not. This variable is calssified into two categories:
     - 0: no diabetes
-    - 1: prediabetes
-    - 2: diabetes
+    - 1: prediabetes or diabetes
 
 
 - **Potential Features/Predictors:**
