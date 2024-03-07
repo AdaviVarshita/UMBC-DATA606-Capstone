@@ -1,4 +1,4 @@
-# Title: SugarSense
+# SugarSense: Predicting Diabetes Risk
 
 UMBC Data Science Master Degree Capstone - DATA606
 
