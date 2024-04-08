@@ -62,7 +62,7 @@ The objective of the project is to develop a predictive model leveraging machine
     | NoDocbcCost | Float | Describes if there was a time in the past 12 months when you needed to see a doctor but could not because of cost. Scale: 0 = no, 1 = yes |
     | GenHlth | Float | Indicates general health of the person. Scale: (1-5): 1 = excellent, 2 = very good, 3 = good, 4 = fair, 5 = poor |
     | MentHlth | Float | Describes about the persons mental health. It includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? Scale: 1-30 days |
-    | PhysHlth | Float | Describes about the persons mental health. It includes physical illness and injury, for how many days during the past 30 days was your physical health not good? Scale: 1-30 days |
+    | PhysHlth | Float | Describes about the persons physical health. It includes physical illness and injury, for how many days during the past 30 days was your physical health not good? Scale: 1-30 days |
     | DiffWalk | Float | Indicates if the person has serious difficulty in walking or climbing stairs. 0 = No, 1 = Yes |
     | Sex | Float | Indicates the gender of the person. 0 = Female, 1 = Male |
     | Age | Float | Describes the age of the person in range category. 13-level age category: 1 = 18-24, ..., 9 = 60-64, ..., 13 = 80 or older |
