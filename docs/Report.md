@@ -11,7 +11,7 @@ DATA 606 - UMBC Data Science Master Degree Capstone
   - GitHub profile: [Varshita Adavi_Github](https://github.com/AdaviVarshita/UMBC-DATA606-Capstone)
   - LinkedIn profile: [Varshita Adavi_LinkedIn](https://www.linkedin.com/in/varshita-adavi/)
   - PowerPoint presentation: [SugarSense_PPT](https://github.com/AdaviVarshita/UMBC-DATA606-Capstone/blob/main/docs/SugarSense%20Project.pdf)
-  - YouTube video:
+  - YouTube video: [Presentation_video]()
 
 
 # 2. Background
